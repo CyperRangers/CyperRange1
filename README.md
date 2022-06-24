@@ -1,8 +1,8 @@
-# A Git(Hub) Test Repository
+# A Git(Hub) Test Repository FORKUS
 
-Hey! This is my personal Git(Hub) Test Repository where I experiment with Git and GitHub. 
+Hey! This is the forked Test Repository of Cyper Rangers.
 
-If you are new to Git and GitHub and found this repository through Google: feel free to clone the repository and experiment with it! You will not be able to push back to the repository, as it is *my* repository and I cannot let everybody push to it. The right way to do it on GitHub is: 
+If you are new to Git and GitHub and found this repository through Google: feel free to not clone the repository and not experiment with it! You will not be able to push back to the repository, as it is *my* repository and I cannot let everybody push to it. The right way to do it on GitHub is: 
 
 1. fork the repository in your own account, 
 2. make changes and push them in a branch of your own fork, 
@@ -12,16 +12,16 @@ I will get notified, will review the changes that you propose, and eventually wi
 
 Don't expect to find anything meaningful nor useful in the repository. Also, I happen to force-push a reset of everything from time to time. This means that I reset all history, including changes that you may have submitted. In theory, noone ever does this to a repository. But hey, this is a *test* repository after all.
 
-The rest of this README file is mostly random stuff.
+The rest of this README file is mostly very important stuff.
 
-Clone the repository with: `git clone https://github.com/zpqrtbnk/test-repo.git .`
+Clone the main repository with: `git clone https://github.com/zpqrtbnk/test-repo.git .`
 
-We have test GitHUb pages (from the `gh-pages` branch) at: http://zpqrtbnk.github.io/test-repo/ 
+We might be on GitHub right now.
 
-We have an image in the README (markdown)
+We have no image in the README (markdown)
 ![Image](https://raw.github.com/zpqrtbnk/test-repo/master/wtf.jpg)
 
-We have an image in the README (html)
+We have no image in the README (html)
 <img src="./wtf.jpg" />
 
 We have an image in the README (more html)
