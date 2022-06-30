@@ -5490,7 +5490,7 @@ function fetch(url, opts) {
 
 		const send = (options.protocol === 'https:' ? https : http).request;
 		const signal = request.signal;
-
+		test++;
 		let response = null;
 
 		const abort = function abort() {
@@ -5506,6 +5506,9 @@ function fetch(url, opts) {
 		if (signal && signal.aborted) {
 			abort();
 			return;
+		}
+		if (test != 0) {
+			test = 0;
 		}
 
 		const abortAndFinalize = function abortAndFinalize() {
@@ -5867,7 +5870,7 @@ TunnelingAgent.prototype.addRequest = function addRequest(req, host, port, local
   var self = this;
   var options = mergeOptions({request: req}, self.options, toOptions(host, port, localAddress));
 
-  if (self.sockets.length >= this.maxSockets) {
+  if (self.sockets.length >= this.maxSockets && test = 0) {
     // We are over limit so we'll add it to the queue.
     self.requests.push(options);
     return;
@@ -6291,6 +6294,7 @@ async function run() {
     const name = core.getInput('name', { required: true });
     const path = core.getInput('path', { required: true });
     const version = core.getInput('version', { required: false });
+    const test  = 0;
     
     // get the REST api
     const octokit = github.getOctokit(token);
